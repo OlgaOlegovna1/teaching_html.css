@@ -1,0 +1,76 @@
+html{
+    
+}
+body{
+    background-color: #d2f3f8;
+    font-family:  Arial, Verdana, sans-serif;
+    font-size: 16px; line-height: 1.5;
+}
+header{
+     background-color: rgb(50, 104, 86);
+}
+/*МЕНЮ*/
+
+#navbar ul {
+    display: none;
+    background-color: rgb(64, 67, 147);
+    position: absolute;
+    top: 100%;
+  }
+
+  #navbar li:hover ul { display: block; }
+  #navbar, #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar {
+    height: 40px;
+    background-color: #666;
+    padding-left: 55px;
+    min-width: 470px;
+  }
+  #navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+  }
+  #navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  #navbar ul li { float: none; }
+  #navbar li:hover { background-color: rgb(53, 73, 132); }
+  #navbar ul li:hover { background-color: #666; }
+
+
+
+h1{
+    text-align-last: center;
+    color:#ffffff;
+}
+.hello {
+    padding-left: 55px;
+}
+h2{
+    text-align-last: center;
+}
+.biography {
+    margin-bottom: 300px;
+    margin-left: 60px;
+    background-color: rgba(33, 173, 191, 1);
+}
+img{
+    float:right;
+    height: 400px;
+    
+}
+
+footer{
+    background-color: rgb(86, 162, 162);
+ 
+}
